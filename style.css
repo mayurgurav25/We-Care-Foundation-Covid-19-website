@@ -1,4 +1,4 @@
-            @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+                     @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
             * {
                 font-family: sans-serif;
                 margin: 0;
@@ -278,7 +278,7 @@
                 padding: 40px;
                 border-radius: 4px;
                 color: #505e6c;
-                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
             }
             
             .contact-clean h2 {
@@ -316,34 +316,6 @@
                 max-height: 260px;
                 padding-top: 10px;
                 resize: vertical
-            }
-            
-            .contact-clean form .btn {
-                padding: 16px 32px;
-                border: none;
-                background: none;
-                box-shadow: none;
-                text-shadow: none;
-                opacity: 0.9;
-                text-transform: uppercase;
-                font-weight: bold;
-                font-size: 13px;
-                letter-spacing: 0.4px;
-                line-height: 1;
-                outline: none !important
-            }
-            
-            .contact-clean form .btn:hover {
-                opacity: 1
-            }
-            
-            .contact-clean form .btn:active {
-                transform: translateY(1px)
-            }
-            
-            .contact-clean form .btn-primary {
-                background-color: #900157 !important;
-                margin-top: 15px;
             }
             /* footer */
             
@@ -436,4 +408,9 @@
             
             .col-md-4 iframe {
                 margin-bottom: 15px;
+            }
+            
+            .paybtn {
+                display: flex;
+                justify-content: center;
             }
